@@ -2,13 +2,13 @@
 
 Scrapes players and the salaries to calculate the qualifying offer based on the top 150 highest salaries.
 
-## Prerequisites:
-
+## Prerequisites
 - Java 8+
 - Maven 3.3.x+
+- Git
 
-## Build
-`mvn package`
-
-## Run
-`java -jar target/offer-1.0-SNAPSHOT.jar`
+## Setup and Run Steps
+1. `git clone git@github.com:thespags/phillies.git`
+2. `cd phillies`
+3. `mvn package`
+4. `java -jar target/offer-1.0-SNAPSHOT.jar`
